@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Read blogs on project management, IT trends, and personal experiences by Doojesh Baichu."
+    />
+    <title>Blog | Doojesh Baichu</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
+    <style>
+      .blog-card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+        background: #f8f9fa;
+        padding: 1.5rem;
+      }
+
+      .blog-card:hover {
+        transform: scale(1.02);
+      }
+
+      .blog-title {
+        color: #007bff;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      .blog-title:hover {
+        text-decoration: underline;
+      }
+
+      .blog-description {
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Doojesh Baichu</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="experience.html">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="skills.html">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="testimonial.html">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="blog.html">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5">
+      <div class="container">
+        <h1 class="display-4">Doojesh Baichu</h1>
+        <p class="lead">
+          Project Manager | IT Professional | 19+ Years of Experience
+        </p>
+        <a href="contact.html" class="btn btn-light btn-lg">Contact Me</a>
+        <a
+          href="asset/CV_Doojesh_Baichu.en.pdf"
+          class="btn btn-outline-light btn-lg"
+          target="_blank"
+          >View CV</a
+        >
+      </div>
+    </header>
+
+    <!-- Blog Section -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-primary mb-4">Latest Posts</h2>
+        <div class="row g-4">
+          <!-- Blog Post 1 -->
+          <div class="col-md-4">
+            <div class="blog-card">
+              <a href="#blogModal1" class="blog-title" data-bs-toggle="modal"
+                >Mastering Agile Project Management</a
+              >
+              <p class="blog-description">
+                Discover how Agile methodologies can transform your project
+                management approach and improve team efficiency.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#blogModal1"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+          <!-- Blog Post 2 -->
+          <div class="col-md-4">
+            <div class="blog-card">
+              <a href="#blogModal2" class="blog-title" data-bs-toggle="modal"
+                >Emerging Trends in IT for 2025</a
+              >
+              <p class="blog-description">
+                Explore the latest trends shaping the IT industry, from AI to
+                edge computing, and how they impact businesses.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#blogModal2"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+          <!-- Blog Post 3 -->
+          <div class="col-md-4">
+            <div class="blog-card">
+              <a href="#blogModal3" class="blog-title" data-bs-toggle="modal"
+                >Lessons from 19+ Years in IT</a
+              >
+              <p class="blog-description">
+                Personal reflections and key takeaways from two decades of
+                working in the IT sector.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#blogModal3"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Post Modals -->
+    <!-- Modal 1 -->
+    <div
+      class="modal fade"
+      id="blogModal1"
+      tabindex="-1"
+      aria-labelledby="blogModal1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="blogModal1Label">
+              Mastering Agile Project Management
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Agile project management is more than just a methodology; it’s a
+              mindset that emphasizes flexibility, collaboration, and
+              incremental progress. With over 19 years of experience in the IT
+              industry, managing global projects and teams across diverse
+              domains, I have leveraged Agile principles to achieve remarkable
+              results.
+            </p>
+
+            <h6>The Power of Agile in My Career</h6>
+            <p>
+              Having worked on complex projects such as
+              <strong>cybersecurity tool development</strong> and
+              <strong>SAP data migration</strong>, I’ve witnessed firsthand how
+              Agile can bring clarity and efficiency to dynamic and evolving
+              environments.
+            </p>
+
+            <h6>Breaking Down Complexity</h6>
+            <p>
+              In projects like the
+              <strong>cybersecurity tool development</strong>
+              at Ernst & Young, where the team integrated modules like
+              vulnerability management, SIEM, and penetration testing, breaking
+              down deliverables into manageable sprints was crucial. Agile
+              allowed us to focus on iterative improvements, ensuring that each
+              sprint delivered tangible results while accommodating changing
+              client needs.
+            </p>
+
+            <h6>Enhanced Collaboration</h6>
+            <p>
+              Leading a team of 10 engineers distributed globally, I emphasized
+              the importance of Agile ceremonies such as
+              <em>daily stand-ups</em>, <em>sprint reviews</em>, and
+              <em>retrospectives</em> to foster open communication and
+              alignment. Tools like <strong>Azure DevOps</strong>
+              played a pivotal role in tracking progress, managing backlogs, and
+              ensuring transparency.
+            </p>
+
+            <h6>Adaptability in Data Migration Projects</h6>
+            <p>
+              During the <strong>SAP data migration project</strong> for a
+              global client, Agile’s flexibility was instrumental in managing
+              the challenges of working with multiple country-specific data
+              teams. Frequent sprint planning and check-ins allowed us to
+              address issues promptly, minimizing downtime and ensuring data
+              quality.
+            </p>
+
+            <h6>Lessons Learned</h6>
+            <ul>
+              <li>
+                <strong>Leadership in Agile:</strong> As a project manager, my
+                role extends beyond planning and execution. I strive to be a
+                servant leader, removing roadblocks, empowering teams, and
+                promoting self-organization.
+              </li>
+              <li>
+                <strong>Managing Stakeholders:</strong> Balancing the
+                expectations of global stakeholders, especially in high-stakes
+                projects like cybersecurity, required a careful blend of Agile
+                flexibility and structured communication.
+              </li>
+              <li>
+                <strong>Continuous Learning:</strong> Agile is not static. With
+                certifications like Scrum Master and hands-on experience in
+                diverse Agile environments, I’ve learned the value of adapting
+                Agile practices to suit project-specific needs.
+              </li>
+            </ul>
+
+            <h6>How Agile Transforms Teams</h6>
+            <ul>
+              <li>
+                <strong>Increased Productivity:</strong> By focusing on
+                delivering smaller, functional increments, teams experience a
+                sense of accomplishment after each sprint, driving motivation.
+              </li>
+              <li>
+                <strong>Improved Quality:</strong> Agile’s emphasis on regular
+                testing and feedback loops ensures issues are identified and
+                addressed early.
+              </li>
+              <li>
+                <strong>Client Satisfaction:</strong> Delivering incremental
+                value keeps clients engaged and confident in the project’s
+                direction.
+              </li>
+            </ul>
+
+            <p>
+              If you're looking to implement Agile in your projects or curious
+              about how Agile can drive success, feel free to reach out. I’d be
+              happy to share more insights!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div
+      class="modal fade"
+      id="blogModal2"
+      tabindex="-1"
+      aria-labelledby="blogModal2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="blogModal2Label">
+              Emerging Trends in IT for 2025
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              As the IT landscape evolves, technologies like
+              <strong>AI</strong>, <strong>edge computing</strong>, and
+              <strong>blockchain</strong> are redefining how businesses operate,
+              innovate, and deliver value. My experience managing diverse IT
+              projects, from <strong>cybersecurity tool development</strong> to
+              <strong>SAP data migration</strong>, has provided me with a unique
+              perspective on how these trends are shaping the future.
+            </p>
+
+            <h6>1. Artificial Intelligence (AI)</h6>
+            <p>
+              AI has transitioned from a futuristic concept to a core technology
+              driving automation, personalization, and efficiency. In my work on
+              a <strong>cybersecurity dashboard</strong>, AI-powered modules
+              were integrated to enhance threat detection and incident response.
+              By leveraging AI for
+              <strong>cyber threat intelligence (CTI)</strong>, the project not
+              only improved threat prediction but also reduced response times,
+              significantly enhancing organizational resilience.
+            </p>
+            <strong>Potential Applications:</strong>
+            <ul>
+              <li>
+                <strong>Predictive Analytics:</strong> Businesses can anticipate
+                customer behavior and market trends.
+              </li>
+              <li>
+                <strong>Automation:</strong> Streamlining repetitive tasks,
+                freeing resources for innovation.
+              </li>
+              <li>
+                <strong>Cybersecurity:</strong> Strengthening defenses with
+                AI-driven anomaly detection.
+              </li>
+            </ul>
+
+            <h6>2. Edge Computing</h6>
+            <p>
+              The rise of IoT (Internet of Things) and connected devices has
+              made edge computing a necessity. By processing data closer to the
+              source, edge computing reduces latency, increases speed, and
+              ensures better data security.
+            </p>
+            <p>
+              In my experience re-engineering a
+              <strong>Fleetcard project</strong> into a microservices
+              architecture, edge computing principles were applied to optimize
+              transaction processing for remote locations. This shift enhanced
+              real-time decision-making and reduced network dependency.
+            </p>
+            <strong>Potential Applications:</strong>
+            <ul>
+              <li>
+                <strong>IoT in Retail:</strong> Real-time inventory updates and
+                personalized customer experiences.
+              </li>
+              <li>
+                <strong>Healthcare:</strong> Processing patient data locally for
+                faster diagnostics.
+              </li>
+              <li>
+                <strong>Manufacturing:</strong> Enabling predictive maintenance
+                and operational efficiency.
+              </li>
+            </ul>
+
+            <h6>3. Blockchain</h6>
+            <p>
+              Initially known for its role in cryptocurrencies, blockchain is
+              now revolutionizing industries like supply chain management,
+              healthcare, and finance. Its decentralized nature ensures
+              transparency, immutability, and security.
+            </p>
+            <p>
+              While I have not directly managed blockchain-centric projects, the
+              principles of
+              <strong>data integrity</strong> and
+              <strong>secure transactions</strong> have been instrumental in
+              projects like <strong>SAP data migration</strong>. Blockchain has
+              the potential to further streamline data validation processes,
+              ensuring accuracy and traceability in multi-location projects.
+            </p>
+            <strong>Potential Applications:</strong>
+            <ul>
+              <li>
+                <strong>Supply Chain:</strong> Transparent tracking of goods and
+                materials.
+              </li>
+              <li>
+                <strong>Healthcare:</strong> Secure and decentralized patient
+                records.
+              </li>
+              <li>
+                <strong>Finance:</strong> Simplifying cross-border transactions
+                and reducing fraud.
+              </li>
+            </ul>
+
+            <h6>Impact on Businesses</h6>
+            <p>
+              Emerging IT trends are transforming business operations in several
+              ways:
+            </p>
+            <ul>
+              <li>
+                <strong>Enhanced Agility:</strong> Organizations can adapt
+                quickly to market demands.
+              </li>
+              <li>
+                <strong>Improved Customer Experience:</strong> Personalized
+                solutions powered by AI and IoT.
+              </li>
+              <li>
+                <strong>Cost Efficiency:</strong> Automation and decentralized
+                technologies reduce overheads.
+              </li>
+              <li>
+                <strong>Strengthened Security:</strong> AI and blockchain
+                bolster defenses against evolving cyber threats.
+              </li>
+            </ul>
+
+            <h6>Closing Thoughts</h6>
+            <p>
+              Technologies like <strong>AI</strong>,
+              <strong>edge computing</strong>, and
+              <strong>blockchain</strong> are no longer optional—they are
+              critical enablers of innovation and competitiveness. My journey in
+              IT has shown me how embracing these trends can drive success,
+              whether it is through reimagining business processes or delivering
+              cutting-edge solutions.
+            </p>
+            <p>
+              If you are curious about how these trends can be applied to your
+              business, feel free to connect with me for a deeper discussion!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div
+      class="modal fade"
+      id="blogModal3"
+      tabindex="-1"
+      aria-labelledby="blogModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="blogModal3Label">
+              Lessons from 19+ Years in IT
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              With over 19 years of experience in the IT sector, my journey has
+              been a continuous process of learning, adapting, and growing.
+              Working with diverse clients across industries like energy,
+              aviation, telecommunications, and cybersecurity has given me
+              invaluable insights into both technology and leadership. Here are
+              some key reflections and takeaways that have shaped my
+              professional outlook:
+            </p>
+
+            <h6>1. The Importance of Adaptability</h6>
+            <ul>
+              <li>
+                <strong>Technology Evolves Constantly:</strong> Starting with
+                Oracle Forms and Reports in the early 2000s and transitioning to
+                cutting-edge technologies like Microsoft Azure, .NET Core, and
+                microservices, I’ve learned that staying relevant in IT requires
+                a willingness to embrace change.
+              </li>
+              <li>
+                <strong>Client Expectations Shift:</strong> Managing projects
+                for global clients like Clarins, TotalEnergies, and Dubai
+                Airports taught me the need to adapt solutions to meet their
+                unique and evolving demands.
+              </li>
+            </ul>
+
+            <h6>2. Collaboration is the Cornerstone of Success</h6>
+            <ul>
+              <li>
+                <strong>Global Teams:</strong> Leading international teams
+                across time zones in projects like SAP Data Migration and
+                cybersecurity tool development has reinforced the value of
+                effective communication and collaboration.
+              </li>
+              <li>
+                <strong>Stakeholder Engagement:</strong> Managing diverse
+                stakeholders, balancing priorities, and delivering outcomes
+                aligned with business objectives has been a vital skill. Tools
+                like Azure DevOps and Agile frameworks have been instrumental.
+              </li>
+            </ul>
+
+            <h6>3. The Power of Methodologies</h6>
+            <ul>
+              <li>
+                <strong>Agile’s Flexibility:</strong> Transitioning from
+                traditional models like Waterfall to Agile has been a
+                game-changer. Projects like Fleetcard re-engineering benefited
+                greatly from Agile's iterative delivery approach.
+              </li>
+              <li>
+                <strong>Process Optimization:</strong> Overseeing CI/CD pipeline
+                deployments for Azure projects highlighted the importance of
+                streamlining workflows for efficient development and deployment.
+              </li>
+            </ul>
+
+            <h6>4. Leadership Means Empowerment</h6>
+            <ul>
+              <li>
+                <strong>Mentoring Teams:</strong> Developing comprehensive
+                training programs at Ernst & Young allowed me to enhance my
+                team’s technical skills and foster a culture of continuous
+                learning.
+              </li>
+              <li>
+                <strong>Servant Leadership:</strong> Empowering teams to take
+                ownership of their work, removing roadblocks, and creating
+                supportive environments has consistently boosted performance.
+              </li>
+            </ul>
+
+            <h6>5. Challenges Build Resilience</h6>
+            <ul>
+              <li>
+                <strong>Managing Complex Projects:</strong> From re-engineering
+                monolithic systems to microservices in Fleetcard projects to
+                ensuring smooth transitions in data migration, challenges have
+                honed my strategic thinking and meticulous planning skills.
+              </li>
+              <li>
+                <strong>Crisis Management:</strong> Unexpected issues, such as
+                data integrity problems or delayed client feedback, have tested
+                my problem-solving abilities and taught me the importance of
+                composure.
+              </li>
+            </ul>
+
+            <h6>6. The Intersection of Technology and Business</h6>
+            <ul>
+              <li>
+                <strong>Value Beyond Code:</strong> Collaborating with clients
+                like Sanofi and Air France showed me the importance of aligning
+                technology with operational challenges to deliver business
+                value.
+              </li>
+              <li>
+                <strong>Metrics-Driven Success:</strong> Defining KPIs and
+                delivering performance reports has helped measure success and
+                ensure accountability.
+              </li>
+            </ul>
+
+            <h6>7. Lifelong Learning is Essential</h6>
+            <ul>
+              <li>
+                <strong>Certifications and Skills:</strong> Earning
+                certifications like Scrum Master, Microsoft Azure Developer
+                Associate, and Oracle PL/SQL Professional has helped me stay
+                ahead of industry trends.
+              </li>
+              <li>
+                <strong>Curiosity Drives Innovation:</strong> Exploring tools
+                like Azure Key Vault and experimenting with AI-driven threat
+                intelligence has fueled my growth and ability to innovate.
+              </li>
+            </ul>
+
+            <h6>Closing Thoughts</h6>
+            <p>
+              Two decades in IT have taught me that success lies at the
+              intersection of technology, teamwork, and adaptability. Each
+              project, whether it’s a simple system upgrade or a complex global
+              deployment, has contributed to my understanding of how IT can
+              empower businesses and transform industries.
+            </p>
+            <p>
+              I look forward to applying these lessons to future opportunities
+              and helping businesses achieve their goals through innovative and
+              effective IT solutions.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+      <div class="container">
+        <div
+          style="
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            gap: 24px;
+          "
+        >
+          <!-- Quick Links -->
+          <div>
+            <h5>Quick Links</h5>
+            <div style="display: flex; align-items: center; gap: 8px">
+              <a href="index.html" class="text-white">Home</a>
+              <span>|</span>
+              <a href="about.html" class="text-white">About</a>
+              <span>|</span>
+              <a href="experience.html" class="text-white">Experience</a>
+              <span>|</span>
+              <a href="skills.html" class="text-white">Skills</a>
+              <span>|</span>
+              <a href="projects.html" class="text-white">Projects</a>
+              <span>|</span>
+              <a href="testimonial.html" class="text-white">Testimonials</a>
+              <span>|</span>
+              <a href="contact.html" class="text-white">Contact</a>
+              <span>|</span>
+              <a href="blog.html" class="text-white">Blogs</a>
+            </div>
+          </div>
+
+          <!-- Contact Section -->
+          <div>
+            <h5>Contact Me</h5>
+            <div class="d-flex flex-wrap gap-3">
+              <p class="mb-0">
+                <i class="fa fa-envelope me-0"></i>
+                <a
+                  href="mailto:amleshb@gmail.com"
+                  class="text-white text-decoration-none"
+                  >amleshb@gmail.com</a
+                >
+              </p>
+              <p class="mb-0">
+                <i class="fa fa-phone me-2"></i>
+                <a
+                  href="tel:+23057646263"
+                  class="text-white text-decoration-none"
+                  >+230 57646263</a
+                >
+              </p>
+              <p class="mb-0">
+                <i class="fab fa-linkedin me-2"></i>
+                <a
+                  href="https://www.linkedin.com/in/doojesh-baichu-b2004944/"
+                  class="text-white"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr class="text-white my-4" />
+        <div class="text-center">
+          <p class="mb-0">
+            &copy; 2025 Doojesh Baichu | Innovation, Leadership, Excellence.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
